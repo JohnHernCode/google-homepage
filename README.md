@@ -1,5 +1,6 @@
 #Google Homepage Remix 
 
-Description
+Description:
+
 Google home page assignment from Odin Project.
 
