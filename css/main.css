@@ -1,0 +1,191 @@
+
+* {
+	/*default color*/
+	color: #000;
+}
+body {
+	font-family: Arial;
+	background: none repeat scroll 0 0 #fff;
+    color: #222;
+    margin:0;
+}
+a {	
+	color:#222;
+	text-decoration: none;
+}
+a:hover {
+    color:#222;
+	text-decoration: underline;
+}
+a.button:hover {
+	text-decoration: none;
+}
+.signbtn {
+    background-color: #4885ed;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    padding: 7px 10px;
+    position: relative;
+    font-weight: bold;
+}
+.top-navigation {
+	float:right;
+	margin-right: 25px;
+}
+.top-navigation li{
+	list-style: none;
+	display: inline-block;
+	text-align: right;
+	padding: 5px 10px 0 0;
+	vertical-align: bottom;
+	margin: 5px 5px 0 0;
+	font-size: 13px;
+}
+.fa {
+	font-size: 20px;
+	vertical-align: top;
+	opacity: 0.7;
+	cursor: default;
+}
+.fa:hover {
+	opacity: 1.0;
+}
+.profile-img {
+	border-radius: 25px;
+	height: 32px;
+    width: 32px;
+    position: relative;
+    top: 5px;
+}
+.search-box {
+	position: absolute;
+	margin-top:75px;
+    width: 100%;
+}
+.search-box img {
+	padding:142px 0 24px 0;
+	display: block;
+	margin:0 auto;
+}
+.search-box input {
+	/*width: 600px;*/
+    margin: 0 auto;
+    padding: 5px;
+    border: 1px solid #d9d9d9;
+    font-size: 16px;
+    border-radius: 5px;
+	display: block;
+	height: 30px;
+    width: 40%;
+    align-self: center;
+    justify-self: center;
+    border: 1px solid rgba(0, 0, 0, 0.151);
+	border-radius: 30px;
+}
+/*select any elements with a class of search-box and then find any input tags inside that are currently focused*/
+.search-box input:focus {
+	border-color: #f5f5f5;
+}
+#searchbar:hover {
+    box-shadow: 1px 1px 5px grey;
+}
+/*select any elements with a class of search-buttons*/
+.search-buttons  {
+	text-align: center;
+	padding-left: 0;
+}
+#search1 {
+    border: none;
+    font-size: 15px;
+    color: #5F6368;
+    margin-right: 25px;
+    padding: 7px 15px 7px 15px;
+    border-radius: 3px;
+}
+#search1:hover {
+    border: 1px solid rgba(0, 0, 0, 0.226);
+}
+#search2 {
+    border: none;
+    font-size: 15px;
+    color: #5F6368;
+    margin-right: 25px;
+    padding: 7px 15px 7px 15px;
+    border-radius: 3px;
+}
+#search2:hover {
+    border: 1px solid rgba(0, 0, 0, 0.226);
+}
+/*select any elements with a class of search-buttons and find all button tags inside*/
+.search-buttons button{
+    background-color: #f5f5f5;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 2px;
+    color: #666;
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 27px;
+    margin: 17px 6px;
+    padding: 0 12px;
+    display: inline-block;
+    cursor: pointer;
+}
+/*select any elements with a class of search-buttons and find all button tags inside that are hovered on*/
+.search-button button:hover{
+	background-color:#f8f8f8;
+	border: 1px solid #c6c6c6;
+    box-shadow:0 1px 1px rgba(0,0,0,0.1);
+    color:#333;
+} 
+
+.bottom-links {
+	bottom: 0 !important;
+	position: absolute;
+	width:100%;
+	background-color: #f2f2f2;
+	border-top: 1px solid #e4e4e4; 
+}
+/*select any elements with a class of left-site-links*/
+.left-links, 
+/*and select any elements with a class of right-site-links*/
+.right-links {
+	margin: 0;
+}
+/*select any elements with a class of left-site-links*/
+.left-links {
+	float:left;
+	padding-left:20px;
+}
+/*select any elements with a class of right-site-links*/
+.right-links {
+	float:right;
+	padding-right:10px;
+}
+/*select any elements with a class of left-site-links and find all li tags inside*/
+.left-links li,
+/*and select any elements with a class of right-site-links and find all li tags inside*/
+.right-links li{
+	list-style: none;
+	display: inline;
+	line-height: 40px;
+}
+/*select any elements with a class of right-site-links and find all li tags inside then the 1st anchor tags inside*/
+.right-links li a:first-child {
+	padding-right:8px;
+}
+/*select any elements with a class of left-site-links and find all li tags inside then the 2nd anchor tags inside*/
+.left-links li:nth-child(2),
+/*and select any elements with a class of left-site-links and find all li tags inside then the 3rd anchor tags inside*/
+.left-links li:nth-child(3) {
+	margin-left:7px;
+}
+/*select any elements with a class of left-site-links and find all li tags inside then all the anchor tags inside*/
+.left-links li a,
+/*and select any elements with a class of right-site-links and find all li tags inside then all the anchor tags inside*/
+.right-links li a {
+	color: #666;
+    margin: 2px 10px 0;
+    letter-spacing: 0.1px;
+    font-size: 14px;
+}
